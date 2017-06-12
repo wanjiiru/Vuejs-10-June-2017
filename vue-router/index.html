@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>vue-router</title>
+  </head>
+  <body>
+    <div id="app">
+    	<nav>
+    		<ul>
+    			<li><router-link v-bind:to="'/'">Hello</router-link></li>
+    			<li><router-link v-bind:to="'/firstroute'">firstroute</router-link></li>
+
+    		</ul>
+    	</nav>
+    	<router-view> </router-view>
+    </div>
+  </body>
+</html>
