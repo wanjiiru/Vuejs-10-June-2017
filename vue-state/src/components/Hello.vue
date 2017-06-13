@@ -5,7 +5,6 @@
         <button class="btn btn-success" @click="increment">+</button>
         <button class="btn btn-danger" @click="decrement">-</button>
         <button class="btn" @click="incrementIfOdd">Increment if odd</button>
-        <button class="btn" @click="incrementAsync">Increment async</button>
     </div>
   </div>
 </template>
@@ -20,8 +19,7 @@ export default {
   methods: mapActions([
     'increment',
     'decrement',
-    'incrementIfOdd',
-    'incrementAsync'
+    
 
   ])
   

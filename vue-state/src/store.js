@@ -4,7 +4,7 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 const state = {
-	count: 1
+	count: 9
 }
 const getters = {
 	evenOrOdd: state => state.count % 2 === 0 ? 'even' : 'odd'
